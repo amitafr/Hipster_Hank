@@ -1,0 +1,154 @@
+/* Eric Meyer's Reset CSS v2.0 */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    text-align: center;
+    font-family: helvetica, sans-serif;
+    background-image: url("../images/background.png");
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+h1 {
+    font-size:25px;
+    margin:10px;
+    overflow:hidden;
+}
+p{  
+    margin-top: 1em;
+    line-height: 20px;
+    font-weight: bold;
+    padding: 0 5% 0 5%;
+}
+.internal{  
+    margin-top: 0px;
+    font-size: 12px;
+    line-height: 5px;
+}
+
+.wrapper {
+    padding: 2% auto 2% auto;
+    text-align: center;
+}
+.logo{
+    margin-top: 40px;
+    padding: 5%;
+    width: 50%;
+    max-width: 250px;
+}
+
+.btn {
+    background: #097054;
+    border: 1px solid #097054;
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+.done{
+    width: 100px;
+    margin: 0 auto;
+}
+#hank{
+    background-image: url("../images/hank.png");
+    width: 130px;
+    height: 200px;
+    background-size: cover;
+    display: inline-block;
+    margin: 10px 1% 0 1%;
+}
+#container{
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+#glasses1{
+    background-image: url("../images/glasses1.png");
+    width: 110px; 
+    height: 39px;
+    background-size: cover;
+    display: inline-block;
+    margin: 0 1% 0 1%;
+}
+#glasses2{
+    background-image: url("../images/glasses2.png");
+    width: 110px; 
+    height: 41px;
+    background-size: cover;
+    display: inline-block;
+    margin: 0 1% 0 1%;
+}
+#glasses3{
+    background-image: url("../images/glasses3.png");
+    width: 110px; 
+    height: 40px;
+    background-size: cover;
+    display: inline-block;
+    margin: 0 1% 0 1%;
+}
+#stash1{
+    background-image: url("../images/stash1.png");
+    width: 110px; 
+    height: 33px;
+    background-size: cover;
+    display: inline-block;
+    margin: 0 1% 0 1%;
+}
+#stash2{
+    background-image: url("../images/stash2.png");
+    width: 110px; 
+    height: 65px;
+    background-size: cover;
+    display: inline-block;
+    margin: 0 1% 0 1%;
+}
+#stash3{
+    background-image: url("../images/stash3.png");
+    width: 105px; 
+    height: 60px;
+    background-size: cover;
+    display: inline-block;
+    margin: 0 1% 0 1%;
+}
+

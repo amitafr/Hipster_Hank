@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi">
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.ui.touch-punch.min.js"></script>
+    <script src="js/hipster.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+
+    <title>Hipster Hank</title>
+</head>
+<body>
+     <script>
+        function play(){
+            var audio = document.getElementById("audio");
+            audio.play();
+        }
+   </script>
+    <!-- HOME -->
+        <div data-role="page" id="home" data-url="home" class="page">
+           <img src="images/logo.png" alt="Hipster Hank" class="logo"/>
+           <p>Hank needs your help!</p>
+            <p>Help Hank get hipster ready for his date with Hailey.</p>
+           <br>
+           <p><a href="#hank_game" data-transition="slide" class="btn">START NOW</a></p>
+        </div>
+
+    <!-- HIPSTER HANK -->
+        <div data-role="page" id="hank_game" data-url="hank_game" class="page">
+            <h1>Hipster Hank</h1>
+            <p class="internal">Drag & drop items to create a look</p>
+                <div id="hank" class="ui-droppable"></div>
+                <div id="container" class="ui-droppable">
+                    <div id="glasses1" class="ui-draggable ui-draggable-handle"></div>
+                    <div id="glasses2" class="ui-draggable ui-draggable-handle"></div>
+                    <div id="glasses3" class="ui-draggable ui-draggable-handle"></div>
+                    <div id="stash1" class="ui-draggable ui-draggable-handle"></div>
+                    <div id="stash2" class="ui-draggable ui-draggable-handle"></div>
+                    <div id="stash3" class="ui-draggable ui-draggable-handle"></div>
+                </div>
+            <div class="btn done" onclick="play()">HIPSTER</div>
+            <audio id="audio" src="audio/hipster_talk.mp3"></audio>
+        </div>
+</body>
+</html>
